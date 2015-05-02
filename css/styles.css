@@ -1,0 +1,81 @@
+*{
+	font-family: sans-serif;
+}
+
+body{
+	margin: 0;
+}
+
+nav{
+	background-color: #a18c8c;
+	width: 100%;
+	min-width: 820px;
+	height: 56px;	
+}
+
+nav ul{
+	list-style: none;
+	
+}
+nav ul li{
+	display: inline;
+
+}
+
+nav a{
+	text-decoration: none;
+	padding: 1em 2em;
+	color: white;
+	
+}
+
+#left{
+	float: left;
+}
+#right {
+	float: right;
+}
+#logo{
+	float: left;
+	padding: 10px 25px;
+	height: 36px;
+	
+}
+
+
+th{
+font-style: bold;
+
+}
+
+th, td{
+border: 1px solid black;
+padding: 2px;
+}
+
+table{
+margin: auto;
+
+text-align: center;
+border-collapse: collapse;
+}
+
+tr{
+border: 1px solid red;
+}
+
+.centered{
+text-align: center;
+}
+
+.red{
+color: red;
+}
+
+.large{
+height: 200px;
+}
+
+#contact{
+padding: 20px;
+}

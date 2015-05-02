@@ -1,0 +1,31 @@
+#myCarousel{
+	width: 868px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.carousel-inner{
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 10px;
+}
+
+.carousel-inner img {
+	float: left;
+	padding: 5px 10px;
+}
+
+
+.carousel-indicators li{
+border: 1px solid blue;
+background-color: blue;
+}
+
+/* These two rule sets correct problems in the nav display on the carousel page caused by bootstrap.css */
+.myUl{
+	padding-top: .9em;
+	font-size: 16px;
+}
+.carouselLogo{
+height: 56px !important;
+}
